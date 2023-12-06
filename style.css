@@ -1,0 +1,64 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg-primary: rgb(246, 248, 248);
+  --bg-secondary: rgb(150, 150, 150);
+  --text-primary: rgb(1, 1, 1);
+  --text-secondary: rgb(77, 77, 77);
+  --icons-bg-primary: green;
+  --icons-bg-secondary: rgb(255, 0, 0);
+}
+
+.container {
+  background-color: var(--bg-primary);
+}
+
+.ul-container {
+  background-color: var(--text-secondary);
+  display: flex;
+  justify-content: center;
+  font-family: "Calibri";
+}
+
+.li-container {
+  list-style: none;
+  padding: 2px;
+  margin: 5px;
+  font-size: 20x;
+}
+
+.li-container:hover {
+  background-color: var(--bg-secondary);
+}
+
+.a-navbar {
+  color: var(--bg-primary);
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.text-center {
+  text-align: justify;
+  text-indent: 2em;
+  margin: 20px;
+}
+
+.title {
+  text-align: center;
+  font-size: 3em;
+}
+
+.description {
+  margin-top: 10px;
+  font-size: 1.5em;
+}
